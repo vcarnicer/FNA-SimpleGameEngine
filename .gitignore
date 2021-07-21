@@ -361,3 +361,38 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+.DS_Store
+.vs
+FNA/
+ImGui.NET/
+fnalibs/
+project_name/bin
+project_name/obj
+project_name/CompiledContent/bin
+project_name/CompiledContent/obj
+.mgstats
+imgui.ini
+imgui_log.txt
