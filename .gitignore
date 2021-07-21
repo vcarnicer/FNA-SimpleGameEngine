@@ -384,15 +384,15 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
-.DS_Store
-.vs
-FNA/
-ImGui.NET/
-fnalibs/
-project_name/bin
-project_name/obj
-project_name/CompiledContent/bin
-project_name/CompiledContent/obj
-.mgstats
-imgui.ini
-imgui_log.txt
+#.DS_Store
+#.vs
+#FNA/
+#ImGui.NET/
+#fnalibs/
+#project_name/bin
+#project_name/obj
+#project_name/CompiledContent/bin
+#project_name/CompiledContent/obj
+#.mgstats
+#imgui.ini
+#imgui_log.txt
