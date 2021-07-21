@@ -4,3 +4,6 @@
 [submodule "GameEngine/fnalibs"]
 	path = GameEngine/fnalibs
 	url = https://github.com/danielcrenna/fnalibs.git
+[submodule "GameEngine/FNA-libs"]
+	path = GameEngine/FNA-libs
+	url = https://github.com/deccer/FNA-libs.git
