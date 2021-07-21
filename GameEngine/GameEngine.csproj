@@ -50,12 +50,17 @@
     <None Include="Content\Levels\nivelungo.jorge">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\FNA\FNA.csproj">
-      <Project>{35253ce1-c864-4cd3-8249-4d1319748e8f}</Project>
-      <Name>FNA</Name>
-    </ProjectReference>
+    <None Include="fnalibs\lib64\libFAudio.so.0" />
+    <None Include="fnalibs\lib64\libFNA3D.so.0" />
+    <None Include="fnalibs\lib64\libSDL2-2.0.so.0" />
+    <None Include="fnalibs\lib64\libtheorafile.so" />
+    <None Include="fnalibs\osx\libFAudio.0.dylib" />
+    <None Include="fnalibs\osx\libFNA3D.0.dylib" />
+    <None Include="fnalibs\osx\libMoltenVK.dylib" />
+    <None Include="fnalibs\osx\libSDL2-2.0.0.dylib" />
+    <None Include="fnalibs\osx\libtheorafile.dylib" />
+    <None Include="fnalibs\osx\libvulkan.1.dylib" />
+    <None Include="fnalibs\vulkan\icd.d\MoltenVK_icd.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnimatedObject.cs" />
@@ -126,6 +131,15 @@
     <Content Include="Content\spritesheet.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fnalibs\README.txt" />
+    <Content Include="fnalibs\x64\FAudio.dll" />
+    <Content Include="fnalibs\x64\FNA3D.dll" />
+    <Content Include="fnalibs\x64\libtheorafile.dll" />
+    <Content Include="fnalibs\x64\SDL2.dll" />
+    <Content Include="fnalibs\x86\FAudio.dll" />
+    <Content Include="fnalibs\x86\FNA3D.dll" />
+    <Content Include="fnalibs\x86\libtheorafile.dll" />
+    <Content Include="fnalibs\x86\SDL2.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
