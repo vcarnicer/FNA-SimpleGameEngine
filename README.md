@@ -1,11 +1,16 @@
 # FNA-SimpleGameEngine
 A simple game engine made with FNA while following the [Michael Hicks FNA tutorial](https://www.youtube.com/playlist?list=PL3wErD7ZIp_DtsTKoouVCxu81UQkI9VZL).
 
-Currently runs tested only on latest Visual Studio 2019 on Windows, will try to port it to VSCode using this template https://github.com/prime31/FNA-VSCode-Template which includes VSCode integration (build tasks, more) and the Nez Engine (https://github.com/prime31/Nez).
+Escribí una explicación a mi manera mientras hacía el tutorial, desde la Parte 6 a la última. Se puede leer en https://www.notion.so/FNA-Journal-b976067108624743bfcb79c42faddb27. Puede ayudar a esclarecer muchas cosas, también a futuro.
+
+It could also be helpful to download the [Michael Hicks Toolbox](https://www.dropbox.com/s/byhp6e4eq40htfc/Michael%20Hicks%20Toolbox.zip?dl=0), a collection of scripts, 
+explanations and all the original assets that Michael Hicks made for the tutorial and are used to make the engine (unimplemented). The engine on this repo already implements everything from the Toolbox.
+
+Currently runs tested only on latest Visual Studio 2019 on Windows, will try to port it to VSCode using this template (https://github.com/prime31/FNA-VSCode-Template) which includes VSCode integration (build tasks and more) and the Nez Engine (https://github.com/prime31/Nez).
 
 
 # How to start
-Clone this repo **recursively**
+Clone this repo **recursively**, like this:
 ```
 git clone --recursive git://github.com/vcarnicer/FNA-SimpleGameEngine.git
 ```
