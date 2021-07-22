@@ -27,7 +27,7 @@ The dependencies installed are:
 - (FNA Wiki) https://github.com/FNA-XNA/FNA/wiki
 
 #### fnalibs
-Native libreries for FNA to work.
+Native libraries for FNA to work.
 - fnalibs: https://github.com/FNA-XNA/FNA/wiki/1:-Download-and-Update-FNA
 - That previous link is the primary source, but I added fnalibs as a submodule from https://github.com/deccer/FNA-libs, which is a repo version of fnalibs that updates every hour to check for updates on the original fnalibs.
 
