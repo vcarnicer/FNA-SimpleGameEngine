@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Utilities">
+    <Position X="17.264" Y="6.923" Height="0.433" Width="0.832" />
+  </Comment>
+  <Class Name="GameEngine.GameObject">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAwBhAAAAIBAIxAAAACUIAACECAAMACAAAAAMAIAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.AnimatedObject">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GameEngine.AnimatedObject.Animations" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AnimatedObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACRQgAEgAQAAAgACACAAAgCAEAIAAAAIAAAAIAQAAgA=</HashCode>
+      <FileName>AnimatedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Character">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUBAAgIAwAAAUYAAAgAAAAkAAIBAACIQAQgAAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.FireCharacter">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAgAAAAIAAAwAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FireCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Player">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAAAAAQAAAAAJAAAAAAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Enemy">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAQAABAAAAAAAAAAABAAAAAQAEAAQAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Bullet">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAgAAAAAAAAAAAAABEAQCAAAARAAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.PowerUp" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="GameEngine.AnimatedObject" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="5.312" />
+        <Point X="6.125" Y="5.312" />
+        <Point X="6.125" Y="7.096" />
+        <Point X="6.5" Y="7.096" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>PowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Map">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAQAAAAAAAAAAAAEAQAAAAACAAIEBEACAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Wall">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Decor">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAgAAAAAUAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.GameHUD">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.LevelData">
+    <Position X="18.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIEAEAAAAAA=</HashCode>
+      <FileName>LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Camera">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAQgAEACAIBFEAAgBAAAAAgAAAAAACAI=</HashCode>
+      <FileName>Utilities\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Global" Collapsed="true">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAQAAABAAAA=</HashCode>
+      <FileName>Utilities\Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Input" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAUEIABAAAAAEAAAAAAAAAAIAxAAAAAAAAQABBAAQ=</HashCode>
+      <FileName>Utilities\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.Resolution" Collapsed="true">
+    <Position X="18.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQCAQgAAgAAgGAAAAEkEAAAEAAAAAAAAIwCAIAIQFA=</HashCode>
+      <FileName>Utilities\Resolution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.TextureLoader" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Utilities\TextureLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine.XmlHelper" Collapsed="true">
+    <Position X="18.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\XmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
