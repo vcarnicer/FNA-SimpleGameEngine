@@ -76,22 +76,22 @@ and drop it from the Editor. Make sure you add all new objects BEFORE NumOfObjec
 example of how it would look:
 ```csharp
 public override void Update(List<GameObject> objects, Map map)
-	{
-		base.Update(objects, map);
-	}
+  {
+    base.Update(objects, map);
+  }
 ```
 
 8. (Optional) If your object is animated... you can override the UpdateAnimations function to write the animation logic. Example:
 ```csharp
 protected override void UpdateAnimations()
-	{
-		if (currentAnimation == null)	
-			return; //Animation isn't loaded, so return.
+   {
+      if (currentAnimation == null)	
+	      return; //Animation isn't loaded, so return.
 
-		base.UpdateAnimations();
+      base.UpdateAnimations();
 
-		//TODO: ADD YOUR ANIMATION LOGIC HERE AT THE BOTTOM!
-	}
+     //TODO: ADD YOUR ANIMATION LOGIC HERE AT THE BOTTOM!
+   }
 ```
 
 9. Make sure you add the following code above the objects list in LevelData.cs:
