@@ -1,5 +1,5 @@
 # FNA-SimpleGameEngine
-A simple game engine made with [FNA](https://github.com/FNA-XNA/FNA) while following the [Michael Hicks FNA tutorial](https://www.youtube.com/playlist?list=PL3wErD7ZIp_DtsTKoouVCxu81UQkI9VZL).
+A very simple game engine made with [FNA](https://github.com/FNA-XNA/FNA) while following the [Michael Hicks FNA tutorial](https://www.youtube.com/playlist?list=PL3wErD7ZIp_DtsTKoouVCxu81UQkI9VZL).
 
 It could also be helpful to download the [Michael Hicks Toolbox](https://www.dropbox.com/s/byhp6e4eq40htfc/Michael%20Hicks%20Toolbox.zip?dl=0), a collection of scripts, 
 explanations and all the original assets that Michael Hicks made for the tutorial and are used to make the engine (unimplemented). The engine on this repo already implements everything from the Toolbox.
