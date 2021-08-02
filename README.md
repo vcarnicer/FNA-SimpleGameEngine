@@ -4,7 +4,7 @@ A simple game engine made with [FNA](https://github.com/FNA-XNA/FNA) while follo
 It could also be helpful to download the [Michael Hicks Toolbox](https://www.dropbox.com/s/byhp6e4eq40htfc/Michael%20Hicks%20Toolbox.zip?dl=0), a collection of scripts, 
 explanations and all the original assets that Michael Hicks made for the tutorial and are used to make the engine (unimplemented). The engine on this repo already implements everything from the Toolbox.
 
-Currently runs tested only on latest Visual Studio 2019 on Windows, I will try to port it to VSCode using this template (https://github.com/prime31/FNA-VSCode-Template) which includes VSCode integration (build tasks and more) and the Nez Engine (https://github.com/prime31/Nez).
+Currently runs tested only on latest Visual Studio 2019 on Windows, I will try to port it to VSCode using [this template](https://github.com/prime31/FNA-VSCode-Template) which includes VSCode integration (build tasks and more) and the [Nez Engine](https://github.com/prime31/Nez).
 **EDIT**: If you want to make a game and not a Monogame/FNA engine, definitely check out the Nez Engine, which is packed with features and tested.
 
 
@@ -33,7 +33,7 @@ The dependencies installed are:
 #### fnalibs
 Native libraries for FNA to work.
 - fnalibs: https://github.com/FNA-XNA/FNA/wiki/1:-Download-and-Update-FNA
-- That previous link is the primary source, but I added fnalibs as a submodule from https://github.com/deccer/FNA-libs, which is a repo version of fnalibs that updates every hour to check for updates on the original fnalibs.
+- That previous link is the primary source, but I added fnalibs as a submodule from [this repo](https://github.com/deccer/FNA-libs), which is a repo version of fnalibs that updates every hour to check for updates on the original fnalibs.
 
 ## How to add new Objects
 >Extracted from "How to add new Objects.txt" from the [Michael Hicks Toolbox](https://www.dropbox.com/s/byhp6e4eq40htfc/Michael%20Hicks%20Toolbox.zip?dl=0), used for the [Michael Hicks FNA tutorial](https://www.youtube.com/playlist?list=PL3wErD7ZIp_DtsTKoouVCxu81UQkI9VZL).
